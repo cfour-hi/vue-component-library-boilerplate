@@ -1,0 +1,16 @@
+{
+  "name": "vue-component-library-boilerplate",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "gh-pages -d docs/.vuepress/dist",
+    "deploy:build": "npm run docs:build && npm run deploy"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0",
+    "vuepress": "^1.5.2"
+  }
+}
